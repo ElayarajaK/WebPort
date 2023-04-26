@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+
+
+        <script>
+
+            
+           // let values =  prompt("Eneter the checking values ");
+
+            let s_name="i,am,java,i,am,a,topper";
+
+            document.writeln(s_name.lastIndexOf("am"))
+/*
+            alert(s_name.includes("the"))
+
+             if(s_name.includes(values)){
+                alert("Checking values are avilabele ")
+             }
+             else{
+                alert("No values");
+             }
+*/
+            // alert(s_name.substring(5,20));
+
+            let s_value = s_name.split("a");
+
+            console.log(s_value)
+
+
+            let fav_sub="     java      python      ";
+
+            document.writeln("<br/>"+fav_sub.length);
+            let after_update=fav_sub.trimEnd();
+            document.writeln("<br/>"+after_update.length);
+
+            let is_value="i am person to develop our country technology's";
+
+            let Students_list=[10,20,30,40,50,60,70,80,90];
+
+            /*let college_details=new Array();
+            college_details[0]="Adhiyamaan";
+            college_details[1]="Banglore";*/
+
+
+
+            
+
+            
+
+           /* document.writeln("<br/> <h1>"+ college_details.length+"</h1>");*/
+
+           //push and pop (last in fist out(data Struvture))
+
+           document.writeln("<br/> before adding array :" +Students_list+"<br/>")
+           Students_list.push(2001);
+           document.writeln("<br/> After push method :" +Students_list+"<br/>")
+           Students_list.push(3011);
+           document.writeln("<br/> After push method :" +Students_list+"<br/>")
+           Students_list.push(4011);
+           document.writeln("<br/> After push method :" +Students_list+"<br/>")
+           Students_list.push(6011);
+           document.writeln("<br/> After push method :" +Students_list+"<br/>")
+           Students_list.push(7011);
+           document.writeln("<br/> After push method :" +Students_list+"<br/>")
+
+            Students_list.pop();     
+            document.writeln("<br/> After pop method :" +Students_list+"<br/>")
+            Students_list.pop();     
+            document.writeln("<br/> After pop method :" +Students_list+"<br/>")
+            Students_list.pop();     
+            document.writeln("<br/> After pop method :" +Students_list+"<br/>")
+            Students_list.pop();     
+            document.writeln("<br/> After pop method :" +Students_list+"<br/>")
+            Students_list.pop();     
+            document.writeln("<br/> After pop method :" +Students_list+"<br/>")
+            Students_list.pop();     
+            document.writeln("<br/> After pop method :" +Students_list+"<br/>")
+
+
+             /*
+             
+             shift and unshift ()
+
+
+             */
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.unshift(201);
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.unshift(202);
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.unshift(203);
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.unshift(204);
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.unshift(205);
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.unshift(206);
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+
+
+             Students_list.shift();
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.shift();
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.shift();
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.shift();
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+             Students_list.shift();
+             document.writeln("<br/> <h1>before adding array :" +Students_list+" </h1><br/>")
+
+
+           
+        </script>
+    </body>
+</html>

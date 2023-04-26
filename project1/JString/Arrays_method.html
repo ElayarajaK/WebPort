@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+
+
+
+
+        <script>
+
+         let val=   (t) => {return t*t} ;
+
+         val(10)
+
+            let Student_Marks=[45,55,35,20,90,86,83,75,5,15,28,99,100,50];
+            document.writeln("<h1>" + Student_Marks +"</h1>")
+
+            let filter_Students = Student_Marks.filter(data => data > 35);
+
+            document.writeln("<h1>" + filter_Students +"</h1>")
+
+            let Student_Details=[{id:1,name:'APJ',marks:100},
+            {id:2,name:'Ganesh',marks:50},
+            {id:3,name:'Ram',marks:75},
+            {id:4,name:'Dhruv',marks:30},
+            {id:5,name:'Sharma',marks:25},
+            {id:6,name:'Jhonson',marks:80}];
+
+          console.log(Student_Details.filter(datas => datas.name.includes("a")))
+
+
+          console.log( Student_Details.filter(datas => datas.marks < 35).map(data => data.marks+25));
+
+          console.log(Student_Details.sort( (a,b) => {return a.marks - b.marks}));
+
+          
+
+          let Employee_salary =[20000,30000,40000,50000,60000,70000];
+
+        // document.writeln(Employee_salary.splice(3));
+
+        Employee_salary.forEach((para1,para2) => {
+            document.writeln("<h2>" + para1+", "+para2+" </h2>")
+        });
+        
+
+         document.writeln("<h1>"+Employee_salary+"</h1>");
+
+         console.log(Student_Details.find(t => t.name=="Raj"));
+
+         
+           
+        </script>
+    </body>
+</html>

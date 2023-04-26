@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I am A ROBO</title>
+
+        <link href="../index.html" rel="stylesheet"/>
+       
+      
+    </head>
+    <style>
+        #values{
+            color: red;
+            margin: 1%;
+            border: 3px solid green;
+            padding: 1%;
+
+            border-radius: 5px;
+
+            width: 40%;
+        }
+    </style>
+    <body>
+        <div class="container" onclick="func()">
+            <h1>First Content</h1>
+        </div>
+
+        <div class="container1">
+            <h1>Second Content</h1>
+        </div>
+
+        <div class="container">
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, necessitatibus. Dolor animi tempora dicta fugit minus, asperiores, tenetur eligendi cumque ducimus ratione doloribus, magni excepturi consequuntur sequi impedit consectetur recusandae.</p>
+
+        </div>
+            <h1>Third contents</h1>
+        <script>
+
+
+            let classes = document.getElementsByClassName("container");
+
+             console.log(classes)
+
+             function func(){
+                classes[1].setAttribute("id","values")
+             }
+        </script>
+
+       
+    </body>
+</html>
+
+

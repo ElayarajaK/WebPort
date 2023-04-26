@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      
+    </head>
+    <body>
+
+        <h1 id="display"></h1>
+       
+        <script type="module">
+
+            import {userDetails,userPrint,Page_name} from './jsfile/userlogin.js';
+            import {AdminDetails} from './js1file/Admin.js';
+            import {Student} from './js1file/AdminReg.js';
+
+
+
+            let details = userDetails();
+            document.getElementById('display').innerHTML=details;
+           console.log(details)
+
+           console.log(AdminDetails)
+
+           let register= new Student(10111,"APJ","IND",200);
+
+           console.log(register.printData());
+
+           document.body.innerHTML= Page_name;
+        </script>
+    </body>
+</html>
+
+
